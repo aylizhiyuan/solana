@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'mBold';
+  src: url('./fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'mMedium';
+  src: url('./fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'mRegular';
+  src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'mSemiBold';
+  src: url('./fonts/Montserrat-SemiBold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 13px;
+  font-weight: normal;
+}
+html,
+body {
+  height: 100%;
+  background: #f7f7f7;
+  line-height: 1.4;
+}
+#app {
+  height: 100%;
+}

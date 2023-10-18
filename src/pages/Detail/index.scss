@@ -1,0 +1,201 @@
+.mBold {
+  font-family: 'mBold';
+}
+
+.mMedium {
+  font-family: 'mMedium';
+}
+
+.mRegular {
+  font-family: 'mRegular';
+}
+
+.mSemiBold {
+  font-family: 'mSemiBold';
+}
+
+.detailContainer {
+  font-family: 'mRegular';
+  width: 100%;
+  background: #f8f8f8;
+  header {
+    padding: 20px;
+    background: #ffffff;
+    .nav {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & > img {
+        width: 97px;
+        height: auto;
+      }
+      .oprations {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button {
+          background: transparent;
+          border: 0;
+        }
+      }
+      .openMenu {
+        margin-left: 20px;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  .main {
+    padding: 20px 20px 60px;
+    & > p {
+      font-family: 'mBold';
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 20px;
+    }
+    & > ul {
+      & > li {
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 2px 4px 0 rgba(63, 63, 55, 0.15);
+        .item {
+          padding: 16px;
+          .title {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            img {
+              width: 48px;
+              height: 48px;
+              border-radius: 50%;
+              margin-right: 10px;
+            }
+            span {
+              font-size: 20px;
+              font-family: 'mBold';
+            }
+          }
+          .pic {
+            margin: 20px 0;
+            padding: 10px 16px;
+            border: 1px solid #eeeeee;
+            border-radius: 8px;
+            img {
+              width: 100%;
+              height: auto;
+            }
+            p {
+              margin: 10px 0;
+            }
+            button {
+              font-family: 'mBold';
+              background-color: #0052ff;
+            }
+          }
+          .date {
+            padding: 10px 0;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #eeeeee;
+            border-radius: 8px;
+            .left {
+              flex: 1;
+              padding-left: 15px;
+              border-right: 1px solid #eeeeee;
+              p:nth-child(1) {
+                color: #909090;
+              }
+              p:nth-child(2) {
+                font-size: 18px;
+                font-family: 'mBold';
+              }
+            }
+            .right {
+              flex: 1;
+              padding-left: 15px;
+              p:nth-child(1) {
+                color: #909090;
+              }
+              p:nth-child(2) {
+                font-size: 18px;
+                font-family: 'mBold';
+              }
+            }
+          }
+          .more {
+            .showColor {
+              margin-bottom: 20px;
+              & > li {
+                .cicle {
+                  width: 10px;
+                  height: 10px;
+                  border-radius: 50%;
+                  display: inline-block;
+                  margin-right: 10px;
+                }
+                .one {
+                  background-color: #0052ff;
+                }
+                .two {
+                  background-color: #4ea6ff;
+                }
+                .three {
+                  background-color: #dddddd;
+                }
+              }
+            }
+            .moreButton {
+              font-family: 'mBold';
+              background-color: #0052ff;
+            }
+            border: 1px solid #eeeeee;
+            padding: 10px;
+            border-radius: 8px;
+            & > p:nth-of-type(2) {
+              font-family: 'mBold';
+              font-size: 24px;
+              padding: 5px 0;
+              border-bottom: 1px solid #eeeeee;
+            }
+            & > ul {
+              & > li {
+                padding: 10px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #eeeeee;
+              }
+              & > li:last-child {
+                border-bottom: 0;
+              }
+            }
+            .process {
+              position: relative;
+              margin: 20px 0;
+              border: 1px solid #000000;
+              background: #dddddd;
+              height: 20px;
+              .fix {
+                position: absolute;
+                width: 60%;
+                height: 18px;
+                left: 0;
+                background: #0052ff;
+              }
+              .at {
+                position: absolute;
+                width: 28%;
+                height: 18px;
+                left: 60%;
+                background: #4ea6ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

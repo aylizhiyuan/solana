@@ -1,0 +1,220 @@
+.mBold {
+  font-family: 'mBold';
+}
+
+.mMedium {
+  font-family: 'mMedium';
+}
+
+.mRegular {
+  font-family: 'mRegular';
+}
+
+.mSemiBold {
+  font-family: 'mSemiBold';
+}
+.homeContainer {
+  font-family: 'mRegular';
+  width: 100%;
+  background: #f8f8f8;
+  header {
+    padding: 20px;
+    background: #ffffff;
+    .nav {
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & > img {
+        width: 97px;
+        height: auto;
+      }
+      .oprations {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button {
+          background-color: transparent;
+          border: 0;
+        }
+      }
+      .openMenu {
+        margin-left: 20px;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  .main {
+    .banner {
+      padding: 40px 20px 40px;
+      & > img {
+        width: 100%;
+        height: auto;
+      }
+      & > p {
+        font-family: 'mBold';
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+      }
+      & > ul {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 20px 0;
+        padding: 0 10px;
+        & > li {
+          list-style: disc;
+        }
+      }
+      & > button {
+        font-family: 'mBold';
+        background-color: #0052ff;
+        border: 0;
+      }
+    }
+    .offering {
+      color: #ffffff;
+      text-align: center;
+      padding: 60px 20px 60px;
+      background: #0052ff;
+      & > p:nth-of-type(1) {
+        font-family: 'mBold';
+        font-size: 30px;
+        margin-bottom: 25px;
+      }
+      & > p:nth-of-type(2) {
+        font-family: 'mSemiBold';
+        font-size: 19px;
+        margin-bottom: 25px;
+      }
+      .list {
+        margin: 50px 0 0 0;
+        & > li {
+          background-color: #4ea6ff;
+          border: 1px solid #4ea6ff;
+          border-radius: 6px;
+          padding: 20px;
+          .header {
+            display: flex;
+            text-align: left;
+            align-items: flex-start;
+            justify-content: flex-start;
+            word-break: break-all;
+            font-size: 14px;
+            & > .desc {
+              & > p:nth-child(1) {
+                font-weight: 700;
+                opacity: 1 !important;
+              }
+              & > p:nth-child(2n + 1) {
+                opacity: 0.8;
+                font-size: 10px;
+              }
+            }
+            & > img {
+              margin-right: 10px;
+              width: 110px;
+              height: auto;
+            }
+          }
+          button {
+            font-family: 'mBold';
+            background-color: #0052ff;
+            border: 0;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+    .invest {
+      padding: 40px 20px 40px;
+      p:nth-child(1) {
+        font-family: 'mBold';
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      & > p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      & > p:last-of-type {
+        margin-top: 10px;
+      }
+    }
+    .work {
+      padding: 40px 20px 40px;
+      p:nth-child(1) {
+        font-family: 'mBold';
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      & > p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      & > p:last-of-type {
+        margin-top: 10px;
+      }
+    }
+    .why {
+      padding: 40px 20px 40px;
+      p:nth-child(1) {
+        font-family: 'mBold';
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      & > p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      & > p:nth-of-type(2) {
+        margin-bottom: 10px;
+      }
+      & > p:last-of-type {
+        margin-top: 10px;
+      }
+    }
+    .message {
+      color: #ffffff;
+      padding: 40px 20px 40px;
+      background: #0052ff;
+      & > p:nth-of-type(1) {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'mBold';
+        color: #ffffff;
+      }
+      & > p:nth-of-type(2) {
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        margin: 10px 0;
+      }
+      button {
+        font-family: 'mBold';
+        background-color: #4ea6ff;
+        border: 0;
+      }
+      .adm-input {
+        margin-bottom: 15px;
+        input {
+          background: #ffffff;
+          font-size: 14px;
+          height: 38px;
+          color: #717a80;
+          border: 1px solid #e5eaef;
+          border-radius: 6px;
+          padding: 16px;
+        }
+      }
+    }
+  }
+  footer {
+    font-family: 'mBold';
+    background: #241bd0;
+    text-align: center;
+    padding: 15px 0;
+    color: #ffffff;
+  }
+}
